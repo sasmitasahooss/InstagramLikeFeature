@@ -1,0 +1,31 @@
+body{
+    background-color: lightseagreen;
+}
+
+.container{
+    width: 20vw;
+    height: 25vw;
+    position: relative;
+    background-color: #fff;
+    margin-left: 38vw;
+    overflow: hidden;
+    margin-top: 10vw;
+}
+
+.container img{
+    height: 25vw;
+    width: 20vw;
+    object-fit: cover;
+}
+
+.container i{
+    font-size: 3.5vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    opacity: 0;
+    font-weight: 200;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform ease 0.5s;
+}
